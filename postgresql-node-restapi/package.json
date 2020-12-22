@@ -1,0 +1,22 @@
+{
+  "name": "node-postgresql-restapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "datadog-lambda-js": "^3.41.0",
+    "dd-trace": "^0.29.1",
+    "express": "^4.17.1",
+    "pg": "^7.12.1",
+    "trace": "^3.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.3"
+  }
+}
